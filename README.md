@@ -4,9 +4,9 @@
 
 This project performs Exploratory Data Analysis (EDA) on an e-commerce sales dataset using Python.
 
-The goal is to understand sales performance, product categories, regional performance, payment methods, customer ratings, delivery time, and revenue trends.
+The analysis focuses on understanding sales patterns, product categories, revenue trends, customer ratings, discounts, payment methods, and regional performance.
 
-## 🛠️ Tools & Libraries
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -15,35 +15,59 @@ The goal is to understand sales performance, product categories, regional perfor
 - Seaborn
 - Jupyter Notebook
 
+## 📊 Dataset
+
+The dataset contains 5,000 e-commerce sales records with 12 columns, including:
+
+- Order ID
+- Order Date
+- Customer ID
+- Product Category
+- Region
+- Quantity
+- Unit Price
+- Discount
+- Payment Method
+- Delivery Days
+- Customer Rating
+- Revenue
+
 ## 🔍 Analysis Performed
 
-- Dataset inspection
-- Data quality checking
+- Data cleaning and inspection
 - Missing-value analysis
-- Duplicate detection
-- Descriptive statistics
+- Duplicate-value analysis
+- Statistical summary
 - Product category analysis
 - Regional analysis
-- Payment method analysis
 - Revenue analysis
-- Yearly and monthly revenue analysis
-- Data visualization
+- Yearly revenue analysis
+- Monthly revenue analysis
+- Payment method analysis
+- Customer rating analysis
 - Correlation analysis
+- Data visualization using Matplotlib and Seaborn
 
-## 📊 Key Insights
+## 💡 Key Insights
 
-- Electronics had the highest number of orders.
-- Electronics generated the highest total revenue among the product categories.
-- Revenue varied across different regions.
-- Payment methods contributed differently to total revenue.
-- Revenue varied across different years and months.
+- Electronics generated the highest number of orders among the product categories.
+- Clothing was the second-largest category by order count.
+- Revenue varies across different years and months.
+- The dataset contains no missing values or duplicate records.
+- The correlation analysis was used to understand relationships between numerical variables.
 
 ## 📁 Project Files
 
-- `E-Commerce_Sales_EDA.ipynb` — Complete EDA notebook
-- `E-Commerce Sales Analytics.csv` — Dataset
-- `README.md` — Project documentation
+| File | Description |
+|---|---|
+| `E-Commerce_Sales_EDA.ipynb` | Complete EDA notebook |
+| `E-Commerce Sales Analytics.csv` | Dataset used for analysis |
+| `requirements.txt` | Required Python libraries |
 
-## 🎯 Skills Demonstrated
+## 🚀 How to Run
 
-Python • Pandas • NumPy • Matplotlib • Seaborn • Exploratory Data Analysis • Data Visualization • Data Analysis
+1. Clone the repository.
+2. Install the required libraries:
+
+```bash
+pip install -r requirements.txt
